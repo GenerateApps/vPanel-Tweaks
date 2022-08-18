@@ -26,39 +26,39 @@ $(document).ready(function(){
 
 
 const element1 = document.getElementById("item_attracta_seotips"); //hide SEOTOOLS - remove to unhide
-element1.remove();
+element1.parentNode.removeChild(element1);
 const element2 = document.getElementById("icon-attracta_seotips"); // ^^^
-element2.remove();
+element2.parentNode.removeChild(element2);
 const element3 = document.getElementById("icon-cloudflare"); // hide CLOUDFLARE - remove to unhideelement.remove();
-element3.remove();
+element3.parentNode.removeChild(element3);
 const element4 = document.getElementById("item_cloudflare"); // ^^^
-element4.remove();
+element4.parentNode.removeChild(element4);
 const element5 = document.getElementById("icon-sitereptile"); // hide sitebuilder - remove to unhide (although it was shut down)
-element5.remove();
+element5.parentNode.removeChild(element5);
 const element6 = document.getElementById("item_sitereptile"); // ^^^
-element6.remove();
+element6.parentNode.removeChild(element6);
 const element7 = document.getElementById("item_accounts"); // hide emailaccounts - remove to unhide (although it is paid)
-element7.remove();
+element7.parentNode.removeChild(element7);
 const element8 = document.getElementById("icon-accounts"); // ^^^
-element8.remove();
+element8.parentNode.removeChild(element8);
 const element9 = document.getElementById("item_forwarders"); // ^^^
-element9.remove();
+element9.parentNode.removeChild(element9);
 const element10 = document.getElementById("icon-forwarders"); // ^^^
-element10.remove();
+element10.parentNode.removeChild(element10);
 const element11 = document.getElementById("item_email_filters"); // ^^^
-element11.remove();
+element11.parentNode.removeChild(element11);
 const element12 = document.getElementById("icon-email_filters"); // ^^^
-element12.remove();
+element12.parentNode.removeChild(element12);
 const element13 = document.getElementById("item_postgresql_databases"); // hide postgresql databases - remove to unhide (although it is paid)
-element13.remove();
+element13.parentNode.removeChild(element13);
 const element14 = document.getElementById("icon-postgresql_databases"); // ^^^ 
-element15.remove();
+element15.parentNode.removeChild(element14);
 const element16 = document.getElementById("icon-remote_mysql"); // hide remotemysql - remove to unhide (it is paid, not applicable in free hosting)
-element16.remove();
+element16.parentNode.removeChild(element15);
 const element17 = document.getElementById("item_remote_mysql"); // ^^^
-element17.remove();
+element17.parentNode.removeChild(element16);
 const element18 = document.getElementById("imgPoweredByCpanel"); // hide poweredbycpanel - remove to unhide
-element18.remove();
+element18.rparentNode.removeChild(element17);
 
 
 

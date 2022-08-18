@@ -58,7 +58,7 @@ element16.parentNode.removeChild(element15);
 const element17 = document.getElementById("item_remote_mysql"); // ^^^
 element17.parentNode.removeChild(element16);
 const element18 = document.getElementById("imgPoweredByCpanel"); // hide poweredbycpanel - remove to unhide
-element18.rparentNode.removeChild(element17);
+element18.parentNode.removeChild(element17);
 
 
 

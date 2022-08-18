@@ -41,7 +41,7 @@ function customisations(){
 
 
 
-	var sidebar = document.get	elementById("sidebar").style.display = "none"; //Remove Sidebar
-	var mblesidebar = document.get	elementById("btnSideBarToggle").style.display = "none"; //Remove Sidebar Button on Mobile
+	var sidebar = document.getelementById("sidebar").style.display = "none"; //Remove Sidebar
+	var mblesidebar = document.getelementById("btnSideBarToggle").style.display = "none"; //Remove Sidebar Button on Mobile
 }
 setTimeout(customisations,100);

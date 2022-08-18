@@ -44,4 +44,4 @@ function customisations(){
 	var sidebar = document.getelementById("sidebar").style.display = "none"; //Remove Sidebar
 	var mblesidebar = document.getelementById("btnSideBarToggle").style.display = "none"; //Remove Sidebar Button on Mobile
 }
-setTimeout(customisations,100);
+setTimeout(customisations,1000);

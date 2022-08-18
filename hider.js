@@ -24,7 +24,7 @@ $(document).ready(function(){
 
 });*/
 
-
+/*
 const element = document.getElementById("item_attracta_seotips"); //hide SEOTOOLS - remove to unhide
 element.remove();
 const element = document.getElementById("icon-attracta_seotips"); // ^^^
@@ -58,9 +58,10 @@ element.remove();
 const element = document.getElementById("item_remote_mysql"); // ^^^
 element.remove();
 const element = document.getElementById("imgPoweredByCpanel"); // hide poweredbycpanel - remove to unhide
-element.remove();
+element.remove();*/
 
 
 
-const element = document.getElementById("sidebar").style.display = "none";; //Remove Sidebar
-const element = document.getElementById("btnSideBarToggle").style.display = "none";; //Remove Sidebar Button on Mobile
+document.getElementById("sidebar").style.display = "none"; //Remove Sidebar
+document.getElementById("btnSideBarToggle").style.display = "none"; //Remove Sidebar Button on Mobile
+document.getElementByid("sidebar").style.display = "none;

@@ -3,7 +3,7 @@
 * This code is open source 
 * The code is modified and re-coded by Spooky Kipper.
 */
-/*
+
 $(document).ready(function(){
   $("#item_attracta_seotips"); //hide SEOTOOLS - remove to unhide
   $("icon-attracta_seotips"); // ^^^
@@ -21,9 +21,8 @@ $(document).ready(function(){
   $("#icon-postgresql_databases"); // ^^^
   $("#icon-remote_mysql"); // hide remotemysql - remove to unhide (Paid hosting Service)
   $("#item_remote_mysql"); // ^^^
-
-});*/
-
+});
+/*
 
 const element1 = document.getElementById("item_attracta_seotips"); //hide SEOTOOLS - remove to unhide
 element1.parentNode.removeChild(element1);
@@ -58,7 +57,7 @@ element16.parentNode.removeChild(element15);
 const element17 = document.getElementById("item_remote_mysql"); // ^^^
 element17.parentNode.removeChild(element16);
 const element18 = document.getElementById("imgPoweredByCpanel"); // hide poweredbycpanel - remove to unhide
-element18.parentNode.removeChild(element17);
+element18.parentNode.removeChild(element17);*/
 
 
 

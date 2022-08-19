@@ -93,7 +93,7 @@ function AddonDomainsHideSiteBuilderBtn() {
 	const btn = document.getElementsByClassName("btn-primary");
 
 	if (page == "domains" || page == "subdomains") {
-		for (var i = 0; i < document.querySelectorAll('.btn-primary').length;; i++) {
+		for (var i = 0; i < document.querySelectorAll('.btn-primary').length; i++) {
 			if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {
 				btn.item(i).parentNode.removeChild(btn.item(i));
 			}

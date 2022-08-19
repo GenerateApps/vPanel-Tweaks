@@ -95,7 +95,7 @@ function AddonDomainsHideSiteBuilderBtn() {
 
 		const btn = document.querySelectorAll('#subdomaintbl > tbody > tr > td > .btn-primary');
 		console.log(btn.length);
-		for (let i = 0; i < btn.length * 2; i++) {
+		for (let i = 0; i < btn.length ; i++) {
 			//if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {
 			btn.item(i).parentNode.removeChild(btn.item(i));
 			//}

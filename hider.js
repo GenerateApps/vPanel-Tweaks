@@ -1,4 +1,10 @@
 function customisations() {
+    
+    var sidebar = document.getElementById("sidebar") //.style.display = "none"; //Remove Sidebar
+    sidebar.parentNode.removeChild(sidebar);
+    var mblesidebar = document.getElementById("btnSideBarToggle") //.style.display = "none"; //Remove Sidebar Button on Mobile
+    mblesidebar.parentNode.removeChild(mblesidebar);
+    
     if (document.getElementById("item_attracta_seotips") != null) {
 
         var element1 = document.querySelector("#software-body > div:nth-child(3)"); // hide SEO Tools - remove to unhide (its so old and outdated and 2012)
@@ -55,10 +61,6 @@ function customisations() {
         var element23 = document.querySelector("#boxes > div:nth-child(11)"); // hide duplicated softaculous - remove to unhide
         element23.parentNode.removeChild(element23);
 
-        var sidebar = document.getElementById("sidebar") //.style.display = "none"; //Remove Sidebar
-        sidebar.parentNode.removeChild(sidebar);
-        var mblesidebar = document.getElementById("btnSideBarToggle") //.style.display = "none"; //Remove Sidebar Button on Mobile
-        mblesidebar.parentNode.removeChild(mblesidebar);
         
         
         document.getElementById("item_file_manager").href = document.getElementById("item_file_manager").href.replace("http://", "https://");

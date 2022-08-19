@@ -91,12 +91,15 @@ function AddonDomainsHideSiteBuilderBtn() {
 	const page = urlParams.get('option');
 
 	const btn = document.getElementsByClassName("btn-primary");
-
+	console.log(btn.length);
+	
+	
 	if (page == "domains" || page == "subdomains") {
-		for (var i = 0; i < document.querySelectorAll('.btn-primary').length; i++) {
+		for (let i = 0; i < document.querySelectorAll('.btn-primary').length; ) {
 			if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {
 				btn.item(i).parentNode.removeChild(btn.item(i));
 			}
+			i = i + 1
 
 		}
 	}

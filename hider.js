@@ -99,7 +99,7 @@ function AddonDomainsHideSiteBuilderBtn() {
 			//if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {
 			btn.item(i).parentNode.removeChild(btn.item(i));
 			//}
-			i = i + 1;
+
 
 		}
 	} else if (page == "subdomains") {

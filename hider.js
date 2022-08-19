@@ -74,7 +74,7 @@ function customisations() {
 		element23.parentNode.removeChild(element23);
 
 
-
+		document.getElementById("icon-file_manager").href = document.getElementById("icon-file_manager").href.replace("http://", "https://");
 		document.getElementById("item_file_manager").href = document.getElementById("item_file_manager").href.replace("http://", "https://");
 		// ^^^ Replace File manager link to https
 

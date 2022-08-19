@@ -5,6 +5,10 @@ function sidebarhide() {
     sidebar.parentNode.removeChild(sidebar);
     var mblesidebar = document.getElementById("btnSideBarToggle") //.style.display = "none"; //Remove Sidebar Button on Mobile
     mblesidebar.parentNode.removeChild(mblesidebar);
+        
+    var cpanellogo = document.getElementById("imgPoweredByCpanel");
+    cpanellogo.src = "https://cpanel.net/wp-content/themes/cPbase/assets/img/logos/cPanel_orange.svg" // SVG
+        
     
     } else {
         setTimeout(sidebarhide, 100);

@@ -6,7 +6,7 @@ function sidebarhide() {
     var mblesidebar = document.getElementById("btnSideBarToggle") //.style.display = "none"; //Remove Sidebar Button on Mobile
     mblesidebar.parentNode.removeChild(mblesidebar);
         
-    document.getElementById("imgPoweredByCpanel").src = "https://spookykipper.github.io/vPanel-Tweaks/cPanel_orange.svg" // SVG
+    document.getElementById("imgPoweredByCpanel").src = "https://spookykipper.github.io/vPanel-Tweaks/cPanel_orange.svg"; // SVG
         
     
     } else {

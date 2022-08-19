@@ -95,7 +95,7 @@ function AddonDomainsHideSiteBuilderBtn() {
 
 		const btn = document.querySelectorAll('tbody btn-primary').length;
 		console.log(btn.length);
-		for (let i = 0; i < document.querySelectorAll('tbody .btn-primary').length * 2;) {
+		for (let i = 0; i < document.querySelectorAll('tbody > .btn-primary').length * 2;) {
 			//if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {
 			btn.item(i).parentNode.removeChild(btn.item(i));
 			//}
@@ -104,7 +104,7 @@ function AddonDomainsHideSiteBuilderBtn() {
 		}
 	} else if (page == "subdomains") {
 
-		const btn = document.querySelectorAll('tbody:nth-child(2) .btn-primary').length;
+		const btn = document.querySelectorAll('tbody:nth-child(2) > .btn-primary').length;
 		console.log(btn.length);
 		for (let i = 0; i < document.querySelectorAll('tbody:nth-child(2) .btn-primary').length * 2;) {
 			//if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {

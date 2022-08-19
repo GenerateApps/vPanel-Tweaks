@@ -51,7 +51,7 @@ function customisations() {
         var element23 = document.querySelector("#boxes > div:nth-child(11)"); // hide duplicated softaculous - remove to unhide
         element23.parentNode.removeChild(element23);
 
-        var sidebar = document.getElementById("sidebar").style.display = "none"; //Remove Sidebar
+        var sidebar = document.getElementById("sidebar") //.style.display = "none"; //Remove Sidebar
         sidebar.parentNode.removeChild(sidebar);
         var mblesidebar = document.getElementById("btnSideBarToggle") //.style.display = "none"; //Remove Sidebar Button on Mobile
         mblesidebar.parentNode.removeChild(mblesidebar);

@@ -24,7 +24,7 @@ function customisations() {
         element13.parentNode.removeChild(element13);
 
         var element16 = document.querySelector("#databases-body > div:nth-child(3)"); // hide remotemysql - remove to unhide (it is paid, not applicable in free hosting)
-        element16.parentNode.removeChild(element15);
+        element16.parentNode.removeChild(element16);
 
 
 

@@ -1,9 +1,18 @@
-function customisations() {
-    
+function sidebarhide() {
+    if (document.getElementById("sidebar") != null) {
+        
     var sidebar = document.getElementById("sidebar") //.style.display = "none"; //Remove Sidebar
     sidebar.parentNode.removeChild(sidebar);
     var mblesidebar = document.getElementById("btnSideBarToggle") //.style.display = "none"; //Remove Sidebar Button on Mobile
     mblesidebar.parentNode.removeChild(mblesidebar);
+    
+    } else {
+        setTimeout(sidebarhide, 100);
+    }
+}
+
+function customisations() {
+
     
     if (document.getElementById("item_attracta_seotips") != null) {
 
@@ -71,4 +80,5 @@ function customisations() {
         setTimeout(customisations, 100);
     }
 }
+setTimeout(sidebarhide, 100);
 setTimeout(customisations, 100);

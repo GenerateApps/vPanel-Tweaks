@@ -84,23 +84,33 @@ function customisations() {
 	}
 }
 
-
 function AddonDomainsHideSiteBuilderBtn() {
 	const queryString = window.location.search;
 	const urlParams = new URLSearchParams(queryString);
 	const page = urlParams.get('option');
 
-	const btn = document.getElementsByClassName("btn-primary");
-	console.log(btn.length);
 
 
-	if (page == "domains" || page == "subdomains") {
-		for (let i = 0; i < document.querySelectorAll('.btn-primary').length * 2;) {
-			if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {
-				btn.item(i).parentNode.removeChild(btn.item(i));
-			}
+	if (page == "domains") {
+
+		const btn = document.querySelectorAll('tbody btn-primary').length;
+		console.log(btn.length);
+		for (let i = 0; i < document.querySelectorAll('tbody .btn-primary').length * 2;) {
+			//if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {
+			btn.item(i).parentNode.removeChild(btn.item(i));
+			//}
 			i = i + 1;
 
+		}
+	} else if (page == "subdomains") {
+
+		const btn = document.querySelectorAll('tbody:nth-child(2) .btn-primary').length;
+		console.log(btn.length);
+		for (let i = 0; i < document.querySelectorAll('tbody:nth-child(2) .btn-primary').length * 2;) {
+			//if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {
+			btn.item(i).parentNode.removeChild(btn.item(i));
+			//}
+			i = i + 1;
 		}
 	}
 }

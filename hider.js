@@ -93,9 +93,9 @@ function AddonDomainsHideSiteBuilderBtn() {
 
 	if (page == "domains") {
 
-		const btn = document.querySelectorAll('tbody > .btn-primary').length;
+		const btn = document.querySelectorAll('#subdomaintbl > tbody > tr > td > .btn-primary');
 		console.log(btn.length);
-		for (let i = 0; i < document.querySelectorAll('tbody > .btn-primary').length * 2;) {
+		for (let i = 0; i < btn.length * 2; i++) {
 			//if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {
 			btn.item(i).parentNode.removeChild(btn.item(i));
 			//}
@@ -104,13 +104,12 @@ function AddonDomainsHideSiteBuilderBtn() {
 		}
 	} else if (page == "subdomains") {
 
-		const btn = document.querySelectorAll('tbody:nth-child(2) > .btn-primary').length;
+		const btn = document.querySelectorAll("#subdomaintbl > tbody:nth-child(2) > tr > td > input.btn.btn-primary");
 		console.log(btn.length);
-		for (let i = 0; i < document.querySelectorAll('tbody:nth-child(2) > .btn-primary').length * 2;) {
+		for (let i = 0; i < btn.length; i++) {
 			//if (btn.item(i).value == "SiteBuilder" || btn.item(i).value == "Site Builder") {
 			btn.item(i).parentNode.removeChild(btn.item(i));
 			//}
-			i = i + 1;
 		}
 	}
 }

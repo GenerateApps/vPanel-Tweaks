@@ -1,12 +1,13 @@
 function sidebarhide() {
     if (document.getElementById("sidebar") != null) {
         
-    var sidebar = document.getElementById("sidebar") //.style.display = "none"; //Remove Sidebar
+    var sidebar = document.getElementById("sidebar"); //.style.display = "none"; //Remove Sidebar
     sidebar.parentNode.removeChild(sidebar);
-    var mblesidebar = document.getElementById("btnSideBarToggle") //.style.display = "none"; //Remove Sidebar Button on Mobile
+    var mblesidebar = document.getElementById("btnSideBarToggle"); //.style.display = "none"; //Remove Sidebar Button on Mobile
     mblesidebar.parentNode.removeChild(mblesidebar);
         
-    document.getElementById("imgPoweredByCpanel").src = "https://spookykipper.github.io/vPanel-Tweaks/cPanel_orange.svg"; // SVG
+    var cpanelicon = document.getElementById("imgPoweredByCpanel"); // SVG
+    cpanelicon.parentNode.removeChild(cpanelicon);
         
     
     } else {

@@ -6,9 +6,8 @@ function sidebarhide() {
     var mblesidebar = document.getElementById("btnSideBarToggle"); //.style.display = "none"; //Remove Sidebar Button on Mobile
     mblesidebar.parentNode.removeChild(mblesidebar);
         
-    var cpanelicon = document.getElementById("imgPoweredByCpanel"); // SVG
-    cpanelicon.parentNode.removeChild(cpanelicon);
-        
+    var cpanelicon = document.getElementById("imgPoweredByCpanel").style.display = "none"; //
+
     
     } else {
         setTimeout(sidebarhide, 100);

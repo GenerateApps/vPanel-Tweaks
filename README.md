@@ -6,3 +6,4 @@
   
  2. Add `<script src="https://spookykipper.github.io/vPanel-Tweaks/hider.js"></script>` to the **Bottom Advert** Section
  
+ Or you can self host it with Github Pages if you need to make changes yourself

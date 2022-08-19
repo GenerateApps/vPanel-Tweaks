@@ -1,6 +1,10 @@
 function customisations() {
     if (document.getElementById("item_attracta_seotips") != null) {
 
+        var element1 = document.querySelector("#software-body > div:nth-child(3)"); // hide SEO Tools - remove to unhide (its so old and outdated and 2012)
+        element1.parentNode.removeChild(element1);
+        
+        
 
         var element5 = document.querySelector("#software-body > div:nth-child(1)"); // hide sitebuilder - remove to unhide (although it was shut down)
         element5.parentNode.removeChild(element5);

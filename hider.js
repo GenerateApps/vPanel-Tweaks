@@ -85,23 +85,21 @@ function customisations() {
 }
 
 
-function AddonDomainsHideSiteBuilderBtn {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const page = urlParams.get('option');
-    
-    const btn = document.getElementsByClassName("btn-primary");
-    
-    if (page == "domains" || page == "subdomains") {
-        for(var i = 0; i < btn.length; i++)
-        {   
-             if btn.item(i).value == "SiteBuilder" {
-                 btn.item(i).parentNode.removeChild(btn.item(i));
-             }
-             
-        }
-    };
-}
+function AddonDomainsHideSiteBuilderBtn() {
+	const queryString = window.location.search;
+	const urlParams = new URLSearchParams(queryString);
+	const page = urlParams.get('option');
+
+	const btn = document.getElementsByClassName("btn-primary");
+
+	if (page == "domains" || page == "subdomains") {
+		for (var i = 0; i < btn.length; i++) {
+			if (btn.item(i).value == "SiteBuilder") {
+				btn.item(i).parentNode.removeChild(btn.item(i));
+			}
+
+		}
+	}
 }
 
 

@@ -77,7 +77,11 @@ function customisations() {
 		document.getElementById("icon-file_manager").href = document.getElementById("icon-file_manager").href.replace("http://", "https://");
 		document.getElementById("item_file_manager").href = document.getElementById("item_file_manager").href.replace("http://", "https://");
 		// ^^^ Replace File manager link to https
-
+		
+		var tutorialicon = document.querySelector("#icon-cloudflare_analytics");
+		var tutorialtext = document.querySelector("#item_cloudflare_analytics");
+		tutorialicon.href = "https://forum.spookhost.eu.org/t/tutorials"
+		tutorialtext.href = "https://forum.spookhost.eu.org/t/tutorials"
 
 	} else {
 		setTimeout(customisations, 100);

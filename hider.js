@@ -1,3 +1,7 @@
+var tutolink;
+var filelink;
+
+
 function sidebarhide() {
 	if (document.getElementById("sidebar") != null) {
 

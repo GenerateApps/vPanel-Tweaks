@@ -10,7 +10,7 @@
 
 # File Manage Link or Tutorial Link Changer
 Set the variables *before* this script loads. Example:
-```js
+```html
 <script>
 var tutolink = "https://forum.spookhost.eu.org/t/tutorials"; //Replace it with your Link
 var filelink = "files.spookhost.eu.org"; //Replace it with your Link, Must be Monsta FTP, *DO NOT INCLUDE HTTP(S) PROTOCOL OR TRAILING SLASH)

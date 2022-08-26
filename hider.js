@@ -74,14 +74,13 @@ function customisations() {
 		element23.parentNode.removeChild(element23);
 
 		if (filelink != null) {
-			document.getElementById("icon-file_manager").href = filelink;
-			document.getElementById("item_file_manager").href = filelink;
-			// ^^^ Replace File manager link to Custom (Make sure it's Monsta FTP Client, Set filelink Variable First)
-		} else {
-			document.getElementById("icon-file_manager").href = document.getElementById("icon-file_manager").href.replace("http://", "https://");
-			document.getElementById("item_file_manager").href = document.getElementById("item_file_manager").href.replace("http://", "https://");
-			// ^^^ Replace File manager link to https
+			document.getElementById("icon-file_manager").href = document.getElementById("icon-file_manager").href.replace("filemanager.ai", filelink);;
+			document.getElementById("item_file_manager").href = document.getElementById("icon-file_manager").href.replace("filemanager.ai", filelink);;
+			// ^^^ Replace File manager link to Custom (Make sure it's Monsta FTP Client, Set filelink Variable First NO HTTP(S) PROTOCOL OR TRAILING SLASH)
 		}
+		document.getElementById("icon-file_manager").href = document.getElementById("icon-file_manager").href.replace("http://", "https://");
+		document.getElementById("item_file_manager").href = document.getElementById("item_file_manager").href.replace("http://", "https://");
+		// ^^^ Replace File manager link to https
 		
 		
 		//Repalce Tutorial Link to Custom Link (Set tutolink Variable First)

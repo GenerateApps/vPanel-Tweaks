@@ -1,5 +1,4 @@
-var tutolink;
-var filelink;
+
 
 
 function sidebarhide() {
@@ -77,7 +76,7 @@ function customisations() {
 		var element23 = document.querySelector("#boxes > div:nth-child(11)"); // hide duplicated softaculous - remove to unhide
 		element23.parentNode.removeChild(element23);
 
-		if (filelink != null) {
+		if (typeof filelink != 'undefined' && filelink != null) {
 			document.getElementById("icon-file_manager").href = document.getElementById("icon-file_manager").href.replace("filemanager.ai", filelink);;
 			document.getElementById("item_file_manager").href = document.getElementById("icon-file_manager").href.replace("filemanager.ai", filelink);;
 			// ^^^ Replace File manager link to Custom (Make sure it's Monsta FTP Client, Set filelink Variable First NO HTTP(S) PROTOCOL OR TRAILING SLASH)
@@ -88,7 +87,7 @@ function customisations() {
 		
 		
 		//Repalce Tutorial Link to Custom Link (Set tutolink Variable First)
-		if (tutolink != null) {
+		if (typeof tutolink != 'undefined' && tutolink != null) {
 			var tutorialicon = document.querySelector("#icon-cloudflare_analytics");
 			var tutorialtext = document.querySelector("#item_cloudflare_analytics");
 			tutorialicon.href = tutolink;

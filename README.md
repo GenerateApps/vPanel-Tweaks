@@ -7,3 +7,12 @@
  2. Add `<script src="https://spookykipper.github.io/vPanel-Tweaks/hider.js"></script>` to the **Bottom Advert** Section
  
  Or you can self host it with Github Pages if you need to make changes yourself
+
+# File Manage Link or Tutorial Link Changer
+Set the variables *before* this script loads. Example:
+```js
+<script>
+var tutolink = "https://forum.spookhost.eu.org/t/tutorials"; //Replace it with your Link
+var filelink = "files.spookhost.eu.org"; //Replace it with your Link, Must be Monsta FTP, *DO NOT INCLUDE HTTP(S) PROTOCOL OR TRAILING SLASH)
+</script>
+```

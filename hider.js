@@ -77,6 +77,7 @@ function customisations() {
 		element23.parentNode.removeChild(element23);
 
 		if (typeof filelink === 'string') {
+			console.log("filelink exists");
 			document.getElementById("icon-file_manager").href = document.getElementById("icon-file_manager").href.replace("filemanager.ai", filelink);;
 			document.getElementById("item_file_manager").href = document.getElementById("icon-file_manager").href.replace("filemanager.ai", filelink);;
 			// ^^^ Replace File manager link to Custom (Make sure it's Monsta FTP Client, Set filelink Variable First NO HTTP(S) PROTOCOL OR TRAILING SLASH)
@@ -88,6 +89,7 @@ function customisations() {
 		
 		//Repalce Tutorial Link to Custom Link (Set tutolink Variable First)
 		if (typeof tutolink === 'string') {
+			console.log("tutolink exists");
 			var tutorialicon = document.querySelector("#icon-cloudflare_analytics");
 			var tutorialtext = document.querySelector("#item_cloudflare_analytics");
 			tutorialicon.href = tutolink;

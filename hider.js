@@ -73,15 +73,25 @@ function customisations() {
 		var element23 = document.querySelector("#boxes > div:nth-child(11)"); // hide duplicated softaculous - remove to unhide
 		element23.parentNode.removeChild(element23);
 
-
-		document.getElementById("icon-file_manager").href = document.getElementById("icon-file_manager").href.replace("http://", "https://");
-		document.getElementById("item_file_manager").href = document.getElementById("item_file_manager").href.replace("http://", "https://");
-		// ^^^ Replace File manager link to https
+		if (filelink != null) {
+			document.getElementById("icon-file_manager").href = filelink;
+			document.getElementById("item_file_manager").href = filelink;
+			// ^^^ Replace File manager link to Custom (Make sure it's Monsta FTP Client, Set filelink Variable First)
+		} else {
+			document.getElementById("icon-file_manager").href = document.getElementById("icon-file_manager").href.replace("http://", "https://");
+			document.getElementById("item_file_manager").href = document.getElementById("item_file_manager").href.replace("http://", "https://");
+			// ^^^ Replace File manager link to https
+		}
 		
-		var tutorialicon = document.querySelector("#icon-cloudflare_analytics");
-		var tutorialtext = document.querySelector("#item_cloudflare_analytics");
-		tutorialicon.href = "https://forum.spookhost.eu.org/t/tutorials"
-		tutorialtext.href = "https://forum.spookhost.eu.org/t/tutorials"
+		
+		//Repalce Tutorial Link to Custom Link (Set tutolink Variable First)
+		if (tutolink != null) {
+			var tutorialicon = document.querySelector("#icon-cloudflare_analytics");
+			var tutorialtext = document.querySelector("#item_cloudflare_analytics");
+			tutorialicon.href = tutolink;
+			tutorialtext.href = tutolink;
+		}
+
 
 	} else {
 		setTimeout(customisations, 100);

@@ -12,7 +12,7 @@
 Set the variables *before* this script loads. Example:
 ```html
 <script>
-var tutolink = "https://forum.spookhost.eu.org/t/tutorials"; //Replace it with your Link
+var tutolink = "https://forum.spookhost.eu.org/t/tutorials"; //Replace it with your Link *INCLUDE HTTP(S) PROTOCOL
 var filelink = "files.spookhost.eu.org"; //Replace it with your Link, Must be Monsta FTP, *DO NOT INCLUDE HTTP(S) PROTOCOL OR TRAILING SLASH)
 </script>
 ```

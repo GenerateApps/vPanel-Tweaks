@@ -76,7 +76,7 @@ function customisations() {
 		var element23 = document.querySelector("#boxes > div:nth-child(11)"); // hide duplicated softaculous - remove to unhide
 		element23.parentNode.removeChild(element23);
 
-		if (typeof filelink != 'undefined' && filelink != null) {
+		if (typeof filelink != 'undefined' && filelink != null && typeof filelink === 'string') {
 			console.log("filelink exists");
 			document.getElementById("icon-file_manager").href = document.getElementById("icon-file_manager").href.replace("filemanager.ai", filelink);;
 			document.getElementById("item_file_manager").href = document.getElementById("icon-file_manager").href.replace("filemanager.ai", filelink);;
@@ -88,7 +88,7 @@ function customisations() {
 		
 		
 		//Repalce Tutorial Link to Custom Link (Set tutolink Variable First)
-		if (typeof tutolink != 'undefined' && tutolink != null) {
+		if (typeof tutolink != 'undefined' && tutolink != null && typeof tutolink === 'string') {
 			console.log("tutolink exists");
 			var tutorialicon = document.querySelector("#icon-cloudflare_analytics");
 			var tutorialtext = document.querySelector("#item_cloudflare_analytics");

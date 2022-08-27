@@ -1,4 +1,4 @@
-/* )
+/* 
 * This code was written by SpookyKipper (https://github.com/SpookyKipper/) and Deveroonie (https://github.com/Deveroonie/)
 * This code is open source 
 * DO NOT REMOVE CREDITS

@@ -1,5 +1,5 @@
-# Free Vista Panel Button Hider
-<h2>Hide unwanted/paid hosting buttons in vPanel</h2>
+# Vista Panel Tweaks
+<h2>Hide unwanted/paid hosting buttons in vPanel, Change Links.</h2>
 
 <h1><u>Installation</u></h1>
  1. Go to your MyOwnFreeHost Panel > <a href="http://panel.myownfreehost.net/panel/index2.php?option=paneladvertsdomselect" target="_blank">Control Panel Advert Control</a> > Select your domain.

@@ -3,6 +3,13 @@
 * This code is open source 
 * DO NOT REMOVE CREDITS
 */
+
+if (page == "accountsettings") {
+	var PHPVERCHOOSEBTN = document.querySelector("#content > div > table.table > tbody > tr:nth-child(29) > td:nth-child(2) > a");
+	PHPVERCHOOSEBTN.parentNode.removeChild(PHPVERCHOOSEBTN);
+}
+
+
 function sidebarhide() {
     if (document.getElementById("sidebar") != null) {
 

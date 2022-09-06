@@ -3,6 +3,9 @@
 * This code is open source 
 * DO NOT REMOVE CREDITS
 */
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const page = urlParams.get('option');
 
 if (page == "accountsettings") {
 	var PHPVERCHOOSEBTN = document.querySelector("#content > div > table.table > tbody > tr:nth-child(29) > td:nth-child(2) > a");
@@ -112,9 +115,6 @@ function customisations() {
 }
 
 function AddonDomainsHideSiteBuilderBtn() {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const page = urlParams.get('option');
 
 
 

@@ -10,6 +10,8 @@ const page = urlParams.get('option');
 if (page == "accountsettings") {
 	var PHPVERCHOOSEBTN = document.querySelector("#content > div > table.table > tbody > tr:nth-child(29) > td:nth-child(2) > a");
 	PHPVERCHOOSEBTN.parentNode.removeChild(PHPVERCHOOSEBTN);
+	var PHPver = document.querySelector("#content > div > table.table > tbody > tr:nth-child(29) > td:nth-child(2)");
+	PHPver.innerHTML.replace("7.0", "7.4");
 }
 
 

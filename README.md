@@ -7,7 +7,7 @@
  Or you can self host it with Github Pages if you need to make changes yourself
 <h1>Full Feature List</h1>
 <ul>
-<li>Hide Unwanted/Premium Hosting Buttons on the homepage</li>
+<li>Hide Unwanted/Premium Hosting Buttons on the homepage. (*NOT* Including the Upgrade Page one as it is against the ToS)</li>
 <li>Hide Password, Email Changing Buttons (In favour of Client Areas)</li>
 <li>Replaces File Manager Button with HTTPS for Security</li>
 <li>Hide Site Builder Button on Addon Domains and Subdomains Page.</li>

@@ -11,7 +11,17 @@ Set the variables *before* this script loads. Example:
 ```html
 <script>
 var tutolink = "https://forum.spookhost.eu.org/t/tutorials"; //Replace it with your Link *INCLUDE HTTP(S) PROTOCOL
-var filelink = "files.spookhost.eu.org"; //Replace it with your Link, Must be Monsta FTP, *DO NOT INCLUDE HTTP(S) PROTOCOL OR TRAILING SLASH)
+var filelink = "files.spookhost.eu.org"; //Replace it with your Link, Must be Monsta FTP HOST EDITION, *DO NOT INCLUDE HTTP(S) PROTOCOL OR TRAILING SLASH)
 </script>
 <script src="https://spookykipper.github.io/vPanel-Tweaks/hider.js"></script>
 ```
+
+<h1>Full Feature List</h1>
+<ul>
+<li>Hide Unwanted/Premium Hosting Buttons on the homepage</li>
+<li>Hide Password, Email Changing Buttons (In favour of Client Areas)</li>
+<li>Replaces File Manager Button with HTTPS for Security</li>
+<li>Hide Site Builder Button on Addon Domains and Subdomains Page.</li>
+<li>Hide the Sidebar (I don't see a point of having it, there's only two buttons)</li>
+<li>Change File Manager and Tutorial Link(Configurable)</li>
+</ul>

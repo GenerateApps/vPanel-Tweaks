@@ -1,13 +1,13 @@
-# Vista Panel Tweaks
+# VistaPanel Tweaks
 
 <h1><u>Installation</u></h1>
  1. Go to your MyOwnFreeHost Panel > <a href="http://panel.myownfreehost.net/panel/index2.php?option=paneladvertsdomselect" target="_blank">Control Panel Advert Control</a> > Select your domain.<br>2. Add <code><script src="https://spookykipper.github.io/vPanel-Tweaks/hider.js"></script></code> to the <b>Bottom Advert</b> Section
  
- Or you can self host it with Github Pages if you need to make changes yourself
+ Or you can self host it with GitHub Pages if you need to make changes yourself
 <h1>Full Feature List</h1>
 <ul>
-<li>Hide Unwanted/Premium Hosting Buttons on the homepage. (*NOT* Including the Upgrade Page one as it is against the ToS)</li>
-<li>Hide Password, Email Changing Buttons (In favour of Client Areas)</li>
+<li>Hide Unwanted/Premium Hosting Buttons on the homepage. (*NOT* Including the Upgrade Page one as it is against the TOS)</li>
+<li>Hide Password, Email Changing Buttons (In favor of client areas like GenerateArea)</li>
 <li>Replaces File Manager Button with HTTPS for Security</li>
 <li>Hide Site Builder Button on Addon Domains and Subdomains Page.</li>
 <li>Hide the Sidebar (I don't see a point of having it, there's only two buttons)</li>
